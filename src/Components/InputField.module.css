@@ -1,0 +1,35 @@
+.inputContainer {
+  width: 100%;
+  text-align: center;
+  background-color: #e0ccbe;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputContainer > * {
+  font-size: 30px;
+  margin: 20px 0px;
+  padding: 10px;
+}
+.inputContainer > input {
+  width: 700px;
+  padding-left: 20px;
+  border-radius: 15px;
+  border: 2px solid lightgrey;
+}
+.inputContainer > input:focus {
+  outline: none;
+}
+.inputContainer > button {
+  margin-left: 20px;
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+  background-color: #9fbb73;
+  color: beige;
+  cursor: pointer;
+}
+.addButton:hover {
+  background-color: #557c55;
+}

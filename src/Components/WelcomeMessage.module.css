@@ -1,0 +1,47 @@
+.welcomeMessageContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+  padding-top: 50px;
+}
+.welcomeMessageContainer > * {
+  text-align: center;
+}
+.icon {
+  font-size: 70px;
+  color: #747264;
+}
+p {
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+.credit {
+  padding-top: 50px;
+  color: rgb(100, 100, 100);
+}
+h1 {
+  padding-top: 100px;
+  color: black;
+  font-size: 30px;
+}
+.links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+a {
+  padding: 20px 30px;
+}
+a > * {
+  font-size: 50px;
+  color: rgb(81, 81, 81);
+}
+a > *:hover {
+  color: black;
+  padding-bottom: 2px;
+  border-bottom: 2px solid black;
+}

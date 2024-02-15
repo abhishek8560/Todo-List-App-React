@@ -1,0 +1,15 @@
+.credit {
+  background-color: orangered;
+  font-size: 22px;
+  color: white;
+  letter-spacing: 3px;
+  padding: 10px;
+  padding-right: 20px;
+  height: 5%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
